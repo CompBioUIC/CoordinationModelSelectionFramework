@@ -1,5 +1,6 @@
 # CoordinationModelSelectionFramework
-Devloper, C. Amornm=bunchornvej, February 2018
+Devloper, Chainarong Amornbunchornvej, February 2018
+Email: camorn2@uic.edu
 
 Welcome to Coordination Model selection framework Version 1.1 Support Page
 This framework is designed to predict the model that generated time series of coordination events.
