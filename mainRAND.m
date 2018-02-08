@@ -1,5 +1,5 @@
 clear
-inputpath='HMLRARatio0.50';
+inputpath='RAND';
 %inputpath='LRA_F1.00';
 inputPrefix='TrajectoryXY';
 %outputPath=spriMixedStrntf('%s/DataOut.mat');
@@ -40,4 +40,3 @@ errHin=errHin/10.0;
 errR=errR/10.0;
 filename = sprintf('%s.mat',inputpath);
 save(filename);
-mainDM1

@@ -13,6 +13,7 @@ kTestResult={};
 errOPT=0;
 errLocal=0;
 errHin=0;
+errR=0;
 parfor k=1:10 % 10 fold validation
     trainDataSet=trainSuperDataSet{k};
     testDataSet=testSuperDataSet{k};
@@ -31,10 +32,12 @@ parfor k=1:10 % 10 fold validation
     errOPT=errOPT+nanmean(nanmean(TestResult.errOPTMat))
     errHin=errHin+nanmean(nanmean(TestResult.errMats {1}))
     errLocal=errLocal+nanmean(nanmean(TestResult.errMats {2}))
+    errR=errR+nanmean(nanmean(TestResult.errMats {3}))
 end
 errOPT=errOPT/10.0;
 errLocal=errLocal/10.0;
 errHin=errHin/10.0;
+errR=errR/10.0;
 filename = sprintf('%s.mat',inputpath);
 save(filename);
 mainHMLRA
