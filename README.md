@@ -22,6 +22,8 @@ INSTRUCTION:
 
 7. MixedStrPr0.50 contains 100 datasets, each TrajectoryXY#.mat contains a set of time series of a coordination event generated from the mixing of HM & LRA strategy function where each individual use either HM or LRA with probability at 0.5 for any time step t. The file 'mainMixedStr.m' has been used to report the result of this set of data in our paper.
 
-8. The data and code for baboon analysis is at 'anotherBaboon' folder.
+8. RAND contains 100 datasets of time series that generated from 20 agents moving toward uniformly and randomly direction.
 
-9. The data for fish analysis is at 'Fish' folder where the code is at 'FishLocalMain.m'.
+9. The data and code for baboon analysis is at 'anotherBaboon' folder.
+
+10. The data for fish analysis is at 'Fish' folder where the code is at 'FishLocalMain.m'.
